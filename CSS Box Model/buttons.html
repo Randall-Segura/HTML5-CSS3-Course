@@ -1,0 +1,79 @@
+<style>
+  .subscribe-button {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    transition: opacity 0.15; /*transition is an effect that allows changes to happen in a smooth and gradual way*/
+  }
+
+  /*hover is used when the cursor is over the button (not clicked)
+  .subscribe-button:hover {
+    background-color: green;
+  }
+*/
+
+  /*active is used while the user is pressing (holding down) the mouse button
+  .subscribe-button:active {
+    background-color: blue;
+  }
+    */
+
+  .subscribe-button:hover {
+    opacity: 0.6; /* opacity defines how transparent an element is while the cursor is over the button (from 0 to 1) */
+  }
+
+  .subscribe-button:active {
+    opacity: 0.5; /*in here opacity works when the user clicks up the button (from 0 to 1)*/
+  }
+
+  .join-button {
+    background-color: white;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(41, 118, 211);
+    padding-left: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.6s, color 0.15s;
+  }
+
+  .join-button:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+  }
+
+  .join-button:active {
+    opacity: 0.7;
+  }
+
+  .tweet-button {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+  }
+
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); /*box-shadow defines horizontal offset, vertical offset, blur radius, and color of the shadow with its opacity*/
+  }
+</style>
+
+<button class="subscribe-button">Subscribe</button>
+<button class="join-button">JOIN my channel</button>
+<button class="tweet-button">Tweet</button>
