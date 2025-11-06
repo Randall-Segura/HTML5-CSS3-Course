@@ -23,10 +23,16 @@
         font-size: 20px;
         margin-left:12px ;
         */
+        display: block;
       }
 
       .video-title{
         width: 300px;
+      }
+
+      .video-preview{
+        width: 300px;
+        display: inline-block;
       }
 
      
@@ -34,11 +40,21 @@
   </head>
   <body>
     <input type="text" class="search-bar" placeholder="Search" />
-    <img class="thumbnail" src="./thumbnails/thumbnail-1.webp" />
     
 
+    <div class="video-preview">
+    <img class="thumbnail" src="./thumbnails/thumbnail-1.webp" />
     <p class="video-title">Talking Tech  <strong>and AI with</strong> Google CEO Sundar Pichai!</p>
     <p class="video-author">Marques Brownlee</p>
     <p class="video-stats">3.4M views · 6 months ago </p>
+    </div>
+
+    <div class="video-preview">
+    <img class="thumbnail" src="./thumbnails/thumbnail-2.webp" />
+    <p class="video-title">Talking Tech  <strong>and AI with</strong> Google CEO Sundar Pichai!</p>
+    <p class="video-author">Marques Brownlee</p>
+    <p class="video-stats">3.4M views · 6 months ago </p>
+    </div>
+
   </body>
 </html>
