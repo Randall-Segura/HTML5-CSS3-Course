@@ -15,12 +15,13 @@
       width: 200px;
       height: 150px;
       object-fit: fill;
-    
+      margin-bottom: 3px;
     }
 
     .name{
-      margin-bottom: 0;
-
+      margin-top: 0;
+      margin-bottom: 6px;
+      margin-left: 10px;
     }
 
     
@@ -28,6 +29,7 @@
     .info-friends{
       display: inline-block;
       width: 200px;
+      
     }
 
 
@@ -36,6 +38,7 @@
       width: 50px;
       height: 50px;
       border-radius: 30px;
+      margin-left: 10px;
     }
 
     .mutual{
@@ -46,6 +49,26 @@
 
     .prueba{
       display: inline-block;
+    }
+
+
+    .btn{
+      background-color: rgb(66,103,178);
+      color:white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 3px;
+    }
+
+    .div-btn{
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-bottom: 6px;
+    }
+
+    .mutual-friends{
+      opacity: 0.8;
+      margin-left: 6px;
     }
     
 
@@ -70,11 +93,13 @@
           <img class="friend-picture" src="https://d3544la1u8djza.cloudfront.net/APHI/Blog/2023/September/small-breeds-hero.jpg" alt="">
         </div>
         <div class="mutual">
-          <p >2 mutual friends</p>
+          <p class="mutual-friends" >2 mutual friends</p>
         </div>
       </div>
 
-      <div></div>
+      <div class="div-btn">
+        <button class="btn">Add friend</button>
+      </div>
     </div>
 
   </div>
