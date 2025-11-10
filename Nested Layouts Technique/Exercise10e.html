@@ -1,190 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" 
-  rel="stylesheet">
-  <style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .person-preview {
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        display: inline-block;
+        margin-right: 25px;
+      }
 
-   .person-preview{
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.20);
-    display: inline-block;
-    margin-right: 25px;
-   }
+      .profile-picture {
+        width: 200px;
+        height: 150px;
+        object-fit: fill;
+        margin-bottom: 3px;
+      }
 
-    .profile-picture{
-      width: 200px;
-      height: 150px;
-      object-fit: fill;
-      margin-bottom: 3px;
-    }
+      .name {
+        margin-top: 0;
+        margin-bottom: 6px;
+        margin-left: 10px;
+        font-family: Roboto, Arial;
+        font-weight: 500;
+      }
 
-    .name{
-      margin-top: 0;
-      margin-bottom: 6px;
-      margin-left: 10px;
-      font-family: Roboto, Arial;
-      font-weight: 500;
-    }
+      .info-friends {
+        display: inline-block;
+        width: 200px;
+      }
 
-    
+      .friend-picture {
+        width: 50px;
+        height: 50px;
+        border-radius: 30px;
+        margin-left: 10px;
+      }
 
-    .info-friends{
-      display: inline-block;
-      width: 200px;
-      
-    }
+      .mutual {
+        display: inline-block;
+        vertical-align: top;
+      }
 
+      .prueba {
+        display: inline-block;
+      }
 
+      .btn {
+        background-color: rgb(66, 103, 178);
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+      }
 
-    .friend-picture{
-      width: 50px;
-      height: 50px;
-      border-radius: 30px;
-      margin-left: 10px;
-    }
+      .div-btn {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 6px;
+      }
 
-    .mutual{
-      display: inline-block;
-      vertical-align: top;
-      
-    }
+      .mutual-friends {
+        opacity: 0.8;
+        margin-left: 6px;
+        font-family: Roboto, Arial;
+      }
 
-    .prueba{
-      display: inline-block;
-    }
-
-
-    .btn{
-      background-color: rgb(66,103,178);
-      color:white;
-      border: none;
-      padding: 5px 10px;
-      border-radius: 3px;
-    }
-
-    .div-btn{
-      margin-top: 10px;
-      margin-left: 10px;
-      margin-bottom: 6px;
-    }
-
-    .mutual-friends{
-      opacity: 0.8;
-      margin-left: 6px;
-      font-family: Roboto, Arial;
-    }
-
-
-    
-    
-
-  </style>
-</head>
-<body>
-
-
-  <div class="profiles">
-
-  <div class="person-preview">
-
-    <div >
-      <img class="profile-picture" src="https://marketplace.canva.com/8-1Kc/MAGoQJ8-1Kc/1/tl/canva-ginger-cat-with-paws-raised-in-air-MAGoQJ8-1Kc.jpg" alt="">
-
-    </div>
-
-
-    <div class="animal-info">
-      <div class="animal-name">
-        <p class="name">Oliver</p>
-      </div>
-      <div class="info-friends">
-        <div class="prueba">
-          <img class="friend-picture" src="https://d3544la1u8djza.cloudfront.net/APHI/Blog/2023/September/small-breeds-hero.jpg" alt="">
+      .profiles{
+        margin-left: 50px;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profiles">
+      <div class="person-preview">
+        <div>
+          <img
+            class="profile-picture"
+            src="https://marketplace.canva.com/8-1Kc/MAGoQJ8-1Kc/1/tl/canva-ginger-cat-with-paws-raised-in-air-MAGoQJ8-1Kc.jpg"
+            alt=""
+          />
         </div>
-        <div class="mutual">
-          <p class="mutual-friends" >2 mutual friends</p>
-        </div>
-      </div>
 
-      <div class="div-btn">
-        <button class="btn">Add friend</button>
-      </div>
-    </div>
+        <div class="animal-info">
+          <div class="animal-name">
+            <p class="name">Oliver</p>
+          </div>
+          <div class="info-friends">
+            <div class="prueba">
+              <img
+                class="friend-picture"
+                src="https://d3544la1u8djza.cloudfront.net/APHI/Blog/2023/September/small-breeds-hero.jpg"
+                alt=""
+              />
+            </div>
+            <div class="mutual">
+              <p class="mutual-friends">2 mutual friends</p>
+            </div>
+          </div>
 
-  </div>
-
-
-
-
-
-  <div class="person-preview">
-
-    <div >
-      <img class="profile-picture" src="https://marketplace.canva.com/8-1Kc/MAGoQJ8-1Kc/1/tl/canva-ginger-cat-with-paws-raised-in-air-MAGoQJ8-1Kc.jpg" alt="">
-
-    </div>
-
-
-    <div class="animal-info">
-      <div class="animal-name">
-        <p class="name">Oliver</p>
-      </div>
-      <div class="info-friends">
-        <div class="prueba">
-          <img class="friend-picture" src="https://d3544la1u8djza.cloudfront.net/APHI/Blog/2023/September/small-breeds-hero.jpg" alt="">
-        </div>
-        <div class="mutual">
-          <p class="mutual-friends" >2 mutual friends</p>
+          <div class="div-btn">
+            <button class="btn">Add friend</button>
+          </div>
         </div>
       </div>
 
-      <div class="div-btn">
-        <button class="btn">Add friend</button>
-      </div>
-    </div>
-
-  </div>
-
-
-
-
-
-
-  <div class="person-preview">
-
-    <div >
-      <img class="profile-picture" src="https://marketplace.canva.com/8-1Kc/MAGoQJ8-1Kc/1/tl/canva-ginger-cat-with-paws-raised-in-air-MAGoQJ8-1Kc.jpg" alt="">
-
-    </div>
-
-
-    <div class="animal-info">
-      <div class="animal-name">
-        <p class="name">Oliver</p>
-      </div>
-      <div class="info-friends">
-        <div class="prueba">
-          <img class="friend-picture" src="https://d3544la1u8djza.cloudfront.net/APHI/Blog/2023/September/small-breeds-hero.jpg" alt="">
+      <div class="person-preview">
+        <div>
+          <img
+            class="profile-picture"
+            src="https://www.hartz.com/wp-content/uploads/2022/04/small-dog-owners-1.jpg"
+            alt=""
+          />
         </div>
-        <div class="mutual">
-          <p class="mutual-friends" >2 mutual friends</p>
+
+        <div class="animal-info">
+          <div class="animal-name">
+            <p class="name">Rex</p>
+          </div>
+          <div class="info-friends">
+            <div class="prueba">
+              <img
+                class="friend-picture"
+                src="https://img.freepik.com/free-photo/pug-dog-isolated-white-background_2829-11416.jpg?semt=ais_hybrid&w=740&q=80"
+                alt=""
+              />
+            </div>
+            <div class="mutual">
+              <p class="mutual-friends">3 mutual friends</p>
+            </div>
+          </div>
+
+          <div class="div-btn">
+            <button class="btn">Add friend</button>
+          </div>
         </div>
       </div>
 
-      <div class="div-btn">
-        <button class="btn">Add friend</button>
+      <div class="person-preview">
+        <div>
+          <img
+            class="profile-picture"
+            src="https://www.wondercide.com/cdn/shop/articles/Upside_down_gray_cat.png?v=1685551065"
+            alt=""
+          />
+        </div>
+
+        <div class="animal-info">
+          <div class="animal-name">
+            <p class="name">Mandy</p>
+          </div>
+          <div class="info-friends">
+            <div class="prueba">
+              <img
+                class="friend-picture"
+                src="https://media.4-paws.org/d/2/5/f/d25ff020556e4b5eae747c55576f3b50886c0b90/cut%20cat%20serhio%2002-1813x1811-720x719.jpg"
+                alt=""
+              />
+            </div>
+            <div class="mutual">
+              <p class="mutual-friends">5 mutual friends</p>
+            </div>
+          </div>
+
+          <div class="div-btn">
+            <button class="btn">Add friend</button>
+          </div>
+        </div>
       </div>
     </div>
-
-  </div>
-  
-
-  </div>
-  
-</body>
+  </body>
 </html>
